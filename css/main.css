@@ -28,7 +28,7 @@ img {
 .body {
 	margin:0;
 	padding:0;
-	overflow: hidden;
+	3overflow: hidden;
 }
 
 .asteroid {
@@ -62,7 +62,6 @@ animation: asteroid-pal 8s ease-in-out infinite alternate;
 	animation: ship-fly 15s ease-in-out infinite;
 }
 
-
 @-webkit-keyframes ship-fly {
 	0% {-webkit-transform: translateY(0);}
 	10% {-webkit-transform: translateX(300px);}
@@ -86,7 +85,6 @@ animation: asteroid-pal 8s ease-in-out infinite alternate;
 	90% {transform: translateX(400px);}
 	100% {transform: translateX(-60px);}
 }
-
 
 .stars {
 	width: 100%;
